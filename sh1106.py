@@ -56,3 +56,4 @@ class SH1106_I2C:
             start = self.width * page
             end = start + self.width
             self.write_data(self.buffer[start:end])
+            
